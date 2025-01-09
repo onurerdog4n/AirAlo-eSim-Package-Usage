@@ -1,0 +1,55 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "11980872163acf392bc1ca14a112b0b0",
+    "packages": [
+        {
+            "name": "airalo/sdk",
+            "version": "1.1.7",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Airalo/airalo-php-sdk.git",
+                "reference": "98eb0050a3b3fb7287ef9632e9d3a776793742f8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Airalo/airalo-php-sdk/zipball/98eb0050a3b3fb7287ef9632e9d3a776793742f8",
+                "reference": "98eb0050a3b3fb7287ef9632e9d3a776793742f8",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.4"
+            },
+            "require-dev": {
+                "phpstan/phpstan": "^1.10",
+                "phpunit/phpunit": "9.5"
+            },
+            "type": "project",
+            "autoload": {
+                "psr-4": {
+                    "Airalo\\": "src/",
+                    "Airalo\\Tests\\": "tests/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "description": "Airalo's Partner API PHP SDK",
+            "support": {
+                "issues": "https://github.com/Airalo/airalo-php-sdk/issues",
+                "source": "https://github.com/Airalo/airalo-php-sdk/tree/1.1.7"
+            },
+            "time": "2024-12-23T10:09:40+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {},
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {},
+    "platform-dev": {},
+    "plugin-api-version": "2.6.0"
+}
